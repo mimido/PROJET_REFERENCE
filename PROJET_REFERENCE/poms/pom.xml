@@ -21,6 +21,7 @@
     <module>jobs/process/generics_jobs/jb_push_test_0.3</module>
     <module>jobs/process/generics_jobs/jb_rawdata_sap_to_azurestorage_0.1</module>
     <module>jobs/process/generics_jobs/jb_rawdata_sharepoint_to_azurestorage_0.1</module>
+    <module>jobs/process/generics_jobs/jb_seconds_test_0.1</module>
     <module>jobs/process/templates/jb_ecriture_suivi_log_0.1</module>
   </modules>
   <properties>

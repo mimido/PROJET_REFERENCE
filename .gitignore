@@ -3,7 +3,7 @@
 .Java/
 .metadata/
 temp/
-FINANCE/code/routines/system/*.*
-FINANCE/temp/
-FINANCE/sqlPatterns/
-FINANCE/talend.project
+PROJET_REFERENCE/code/routines/system/*.*
+PROJET_REFERENCE/temp/
+PROJET_REFERENCE/sqlPatterns/
+PROJET_REFERENCE/talend.project

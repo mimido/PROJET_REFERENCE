@@ -67,7 +67,7 @@
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/WORKSPACE_PROJET_REF/.metadata\"",
+        "value" : "\"C:/WORKPLACE_DEV_CLONE/.metadata\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:aaeYl7fTE8Z6H1SwqiDyls7+3f65WdVv/6ceouw1",
+        "value" : "enc:system.encryption.key.v1:VqqjVElFTWF/1u9HR0KceLkafnz3uiKk++8Gafi4",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:lrkPDfxfM3WMLq6Hwp2syVU0K3v+mEZe5prcLP59",
+        "value" : "enc:system.encryption.key.v1:qvd7YJNcZJVD5lUB4oK9Xk95SJVc7n2PWmDhXRJa",
         "contextMode" : false
       }, {
         "show" : true,

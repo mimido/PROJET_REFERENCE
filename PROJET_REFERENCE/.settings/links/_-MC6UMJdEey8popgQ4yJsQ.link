@@ -1,0 +1,30 @@
+{
+  "itemId" : "_-MC6UMJdEey8popgQ4yJsQ",
+  "contextList" : [ {
+    "contextName" : "UAT",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_eHx54QGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_eHx54gGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_eHx54wGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_vu_p4fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_vu_p4vHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_vu_p4_HaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    } ]
+  } ]
+}

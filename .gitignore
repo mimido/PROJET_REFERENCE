@@ -1,0 +1,9 @@
+**/jobInfo.properties
+.JETEmitters/
+.Java/
+.metadata/
+temp/
+FINANCE/code/routines/system/*.*
+FINANCE/temp/
+FINANCE/sqlPatterns/
+FINANCE/talend.project

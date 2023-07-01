@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_t5j7oGSAEeueAZeGEExkVg">
+    <contextParameter comment="SAP client" name="connection_SAP_client" prompt="connection_SAP_client?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="110" xmi:id="_w3zOYGSAEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP user ID" name="connection_SAP_user" prompt="connection_SAP_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Z_TALEND_DP" xmi:id="_w3zOYWSAEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP password" name="connection_SAP_password" prompt="connection_SAP_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Ilyo4dV1mKmL9OotKVM0i7USbY6ENSVGhZfDqu++UKgVT9c8" xmi:id="_w3zOYmSAEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP language" name="connection_SAP_language" prompt="connection_SAP_language?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EN" xmi:id="_w3zOY2SAEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP host name" name="connection_SAP_hostname" prompt="connection_SAP_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lterhdqeccd.tereos.net" xmi:id="_w3zOZGSAEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP system numer" name="connection_SAP_systemNumber" prompt="connection_SAP_systemNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="00" xmi:id="_w3zOZWSAEeueAZeGEExkVg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_VrmtYGSBEeueAZeGEExkVg">
+    <contextParameter comment="SAP client" name="connection_SAP_client" prompt="connection_SAP_client?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="110" xmi:id="_VrmtYWSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP user ID" name="connection_SAP_user" prompt="connection_SAP_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Z_TALEND_DP" xmi:id="_VrmtYmSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP password" name="connection_SAP_password" prompt="connection_SAP_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:IZrhCwOLHpSmpXeVyrP2hhQh9pOEMUOhKGrL5KC38GkIm2Q5" xmi:id="_VrmtY2SBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP language" name="connection_SAP_language" prompt="connection_SAP_language?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EN" xmi:id="_VrmtZGSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP host name" name="connection_SAP_hostname" prompt="connection_SAP_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lterhdqeccd.tereos.net" xmi:id="_VrmtZWSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP system numer" name="connection_SAP_systemNumber" prompt="connection_SAP_systemNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="00" xmi:id="_VrmtZmSBEeueAZeGEExkVg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRD" xmi:id="_VrmtZ2SBEeueAZeGEExkVg">
+    <contextParameter comment="SAP client" name="connection_SAP_client" prompt="connection_SAP_client?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="110" xmi:id="_VrmtaGSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP user ID" name="connection_SAP_user" prompt="connection_SAP_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Z_TALEND_DP" xmi:id="_VrmtaWSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP password" name="connection_SAP_password" prompt="connection_SAP_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:19mhEL09H2py4NRseABfHD8ra1pKZvA7TNkBRg6yEhLfUZ5u" xmi:id="_VrmtamSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP language" name="connection_SAP_language" prompt="connection_SAP_language?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EN" xmi:id="_Vrmta2SBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP host name" name="connection_SAP_hostname" prompt="connection_SAP_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lterhdqeccd.tereos.net" xmi:id="_VrmtbGSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP system numer" name="connection_SAP_systemNumber" prompt="connection_SAP_systemNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="00" xmi:id="_VrmtbWSBEeueAZeGEExkVg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_VrmtbmSBEeueAZeGEExkVg">
+    <contextParameter comment="SAP client" name="connection_SAP_client" prompt="connection_SAP_client?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="110" xmi:id="_Vrmtb2SBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP user ID" name="connection_SAP_user" prompt="connection_SAP_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Z_TALEND_DP" xmi:id="_VrmtcGSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP password" name="connection_SAP_password" prompt="connection_SAP_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_VrmtcWSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP language" name="connection_SAP_language" prompt="connection_SAP_language?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EN" xmi:id="_VrmtcmSBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP host name" name="connection_SAP_hostname" prompt="connection_SAP_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lterhdqeccd.tereos.net" xmi:id="_Vrmtc2SBEeueAZeGEExkVg"/>
+    <contextParameter comment="SAP system numer" name="connection_SAP_systemNumber" prompt="connection_SAP_systemNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="00" xmi:id="_VrmtdGSBEeueAZeGEExkVg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_89003d81-474c-48fd-b0e4-43a96cfd1857"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pwOFktTLGTF+U6SXTKlonLttFHWYZrpd56GHJESfnEcdzIrxq4gmCnIgpPf29dR0x9za5y6Xiw3/
+rhLKStuiKw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2db58a42-d7e7-45ce-a27b-8c999ec06bf3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>d33EFTwogmtZvBCg3YD+FV/McRR8dqwMmvRYu3Z+8EmlRxAfQ7+vneMkF0UDx2WmGxUZU8o6pr93
+1XjhB3t9ng==</DigestValue></Reference></SignedInfo><SignatureValue>Hg56qfcGwk/JXqeEokq7l/hI1QqfNgpghWwdI6SiMtjAmrOEt9ByTyttkzj5pYQxIdjOIHt2OqVb
+lZyRJoANEli5fkllDzVoYlQKg72Cjjq1vd/keJ2exZElz6UaVI3+CVR2suXj8eGg4oApiBVXMEoA
+M9QcHp0tl5U0vfwdvR131TZcyLLnXCk03pAQIn433G99s3WP98aJ621QJ1J2tZZNbZL+6jEnKcap
+Jzwsu2gXd8JvawfwSnzPuWvsz2pvr5qTq+aZ4I5MdgU2nx1FE3V5R4tOh/oUFTQsyvVB/WJxkyz8
+KbD0RtP+FkCNtnOepdYGJ4ZrcnqvrtCvXMvIIg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2db58a42-d7e7-45ce-a27b-8c999ec06bf3" Target="#_89003d81-474c-48fd-b0e4-43a96cfd1857"><Timestamp>2023-07-01 10:49:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

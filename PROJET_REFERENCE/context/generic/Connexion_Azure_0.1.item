@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_vu_p4PHaEeq8TNVYXr3VPw">
+    <contextParameter comment="" name="connection_AzureStorage_Account_RawData" prompt="connection_AzureStorage_Account_RawData?" promptNeeded="false" type="id_String" value="&quot;tdprawdatadev&quot;" xmi:id="_vu_p4fHaEeq8TNVYXr3VPw"/>
+    <contextParameter comment="" name="connection_AzureStorage_Container_RawData" prompt="connection_AzureStorage_Container_RawData?" promptNeeded="false" type="id_String" value="&quot;rawdata&quot;" xmi:id="_vu_p4vHaEeq8TNVYXr3VPw"/>
+    <contextParameter comment="" name="connection_AzureStorage_AccesKey_RawData" prompt="connection_AzureStorage_AccesKey_RawData?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:pSkG4HlVmjclkvGG2N3ig2nAV5S/gA/tz4EJMVqDxJGyiw6afvcscMaqRvvHVv/BrzwbS+mIjB0z9sxJYAqHISXzezCacY2bX16Ru+4xSBHK8UuWW+YrIPp8CneSMrVJ/ilNwE2Lsf8V0hjlLWXYveWDQWU=" xmi:id="_vu_p4_HaEeq8TNVYXr3VPw"/>
+    <contextParameter comment="" name="connection_AzureStorage_Account_LandingZone" prompt="connection_AzureStorage_Account_LandingZone?" promptNeeded="false" type="id_String" value="&quot;tdplandingzonedev&quot;" xmi:id="_vu_p5PHaEeq8TNVYXr3VPw"/>
+    <contextParameter comment="" name="connection_AzureStorage_AccesKey_LandingZone" prompt="connection_AzureStorage_AccesKey_LandingZone?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:bDeGc47OKcz4GPfBjWSNswKNUjkRByrilnqNUyUFroY7U+zCaoUVSZ/OmWeVXtASpGj/CwRUnl7jfsBD4ORoo5ygYJShorcxdsswl7WS6khx18zaW5+qgFESHeZ4a2y0WreYXmkU456lOcDIuk31RIN+HsQ=" xmi:id="_vu_p5fHaEeq8TNVYXr3VPw"/>
+    <contextParameter comment="" name="connection_AzureEventHub_AccesKey_Producer" prompt="connection_AzureEventHub_AccesKey_Producer?" promptNeeded="false" type="id_String" value="Endpoint=sb://tdpeventhubdev.servicebus.windows.net/;SharedAccessKeyName=ProducerSharedAccessKey;SharedAccessKey=JtdQwzSvfKuSaJ9Tr0AQdRfwznErSfTj4nj/XvoGoAw=" xmi:id="_U0ugwBIkEeurKNSddRPQqg"/>
+    <contextParameter comment="" name="connection_AzureEventHub_AccesKey_Consumer" prompt="connection_AzureEventHub_AccesKey_Consumer?" promptNeeded="false" type="id_String" value="Endpoint=sb://dcpeventhubprd.servicebus.windows.net/;SharedAccessKeyName=ListenSharedAccesKey;SharedAccessKey=Q9KcEXn57oBA0jd0BodCjUpY/IT9nzQ+w+/z78VduJE=" xmi:id="_U0vH0BIkEeurKNSddRPQqg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="UAT" xmi:id="_eHx54AGkEeuIZqehh4sxWg">
+    <contextParameter comment="" name="connection_AzureStorage_Account_RawData" prompt="connection_AzureStorage_Account_RawData?" promptNeeded="false" type="id_String" value="&quot;stodcprawdatauat&quot;" xmi:id="_eHx54QGkEeuIZqehh4sxWg"/>
+    <contextParameter comment="" name="connection_AzureStorage_Container_RawData" prompt="connection_AzureStorage_Container_RawData?" promptNeeded="false" type="id_String" value="&quot;rawdata&quot;" xmi:id="_eHx54gGkEeuIZqehh4sxWg"/>
+    <contextParameter comment="" name="connection_AzureStorage_AccesKey_RawData" prompt="connection_AzureStorage_AccesKey_RawData?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:8tP3MVc+nd7+1UwlHUSa13u5uy8nQo+heDqsqejiVAxIJdABWqBUHCfvDrxGu7+4PYTyOULDFX6y7ODvnj0InyqO3ULbCI8TWKd2w/ajw1PAg0dZOajYGO4M3Hns0LMYguzAQLCC6B8k3OsnPluQoZ9+1ok=" xmi:id="_eHx54wGkEeuIZqehh4sxWg"/>
+    <contextParameter comment="" name="connection_AzureStorage_Account_LandingZone" prompt="connection_AzureStorage_Account_LandingZone?" promptNeeded="false" type="id_String" value="&quot;stodcplandingzoneuat&quot;" xmi:id="_eHx55AGkEeuIZqehh4sxWg"/>
+    <contextParameter comment="" name="connection_AzureStorage_AccesKey_LandingZone" prompt="connection_AzureStorage_AccesKey_LandingZone?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:sPDRX3GzP3t1nVToUpDnFQTMVsJYqvkDGFDdfI9lK3RzuU9CJazUTFEFDhB53qkCnfX54eIsy4+NI0RGtBbkqaqBjPUcGygk0tT4nh8y5djk6NdXBym21FZAQyjnXNmCWEv+EAhoaIo5LP9bxjtr261YAX8=" xmi:id="_eHx55QGkEeuIZqehh4sxWg"/>
+    <contextParameter comment="" name="connection_AzureEventHub_AccesKey_Producer" prompt="connection_AzureEventHub_AccesKey_Producer?" promptNeeded="false" type="id_String" value="Endpoint=sb://tdpeventhubdev.servicebus.windows.net/;SharedAccessKeyName=ProducerSharedAccessKey;SharedAccessKey=JtdQwzSvfKuSaJ9Tr0AQdRfwznErSfTj4nj/XvoGoAw=" xmi:id="_U0vH0RIkEeurKNSddRPQqg"/>
+    <contextParameter comment="" name="connection_AzureEventHub_AccesKey_Consumer" prompt="connection_AzureEventHub_AccesKey_Consumer?" promptNeeded="false" type="id_String" value="Endpoint=sb://dcpeventhubprd.servicebus.windows.net/;SharedAccessKeyName=ListenSharedAccesKey;SharedAccessKey=Q9KcEXn57oBA0jd0BodCjUpY/IT9nzQ+w+/z78VduJE=" xmi:id="_U0vH0hIkEeurKNSddRPQqg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ecc7fdad-ddb0-4634-8ab3-bdf59297dce6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iq2LSwDKcYFKx7ylyPKaXv71KH2eZ79XzLK5P2AjDQshmrZREBly+5aQyDZ6qjJ6YEwqlV1/e+hJ
++gpRqPqbtw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_adf950b2-9784-4c61-aadf-17abfd65cf3d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>i5BxBrT/rQqYQ1D6caL+RApfG5p8sIQlIuIh4HM5iBAx5lTwS9xA19g8iHTV3iy+R/O9UsdAJO6l
+EkgWMRAWmQ==</DigestValue></Reference></SignedInfo><SignatureValue>lMoMGW/mwYL6yTR5sK6YQ31Fossb7iWtsuuY+2q/4eD/NF7NKt6Fh4RLHonkVk/mkuFPmAVjaM0E
+3beAhNcXhnns+L88OPgKanlOMItWP6d1XLwqf/q2ITrc1drCHg/yNCslM2NcOxg36rmSS3WamY9F
+M29Cnf4VX/k7bKKWnL3o4Q21A1DUH+9Wp+bzrmRW625+Wmqkkj4P/IfiEJWKAQIVIop9HGcaSVHW
+E5O4UYdj5Ywp9cQ9lzNf4gLz9A2SkPlHag3/5k2h6j8VNXsu+lg/W9be7eWvDVLkmG6R8/50ff4S
+vPeQgu4qNe/WEhPlVaQjK9asy1AtrQJS7/FdzQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_adf950b2-9784-4c61-aadf-17abfd65cf3d" Target="#_ecc7fdad-ddb0-4634-8ab3-bdf59297dce6"><Timestamp>2023-07-01 10:49:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

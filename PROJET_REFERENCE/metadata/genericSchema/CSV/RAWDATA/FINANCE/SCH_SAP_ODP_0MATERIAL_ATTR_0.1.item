@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_YzNXQw3uEe2A7trwCIXfNQ" xmi:id="_YzNXQg3uEe2A7trwCIXfNQ"/>
+  <TalendMetadata:GenericPackage dataManager="_YzNXQg3uEe2A7trwCIXfNQ" xmi:id="_YzNXQw3uEe2A7trwCIXfNQ">
+    <ownedElement id="_YzNXQA3uEe2A7trwCIXfNQ" label="_0MATERIAL_ATTR" xmi:id="_YzNXRA3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="Material Number" key="true" label="MATNR" length="18" name="MATNR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXRQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXRg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Created On" label="ERSDA" length="8" name="ERSDA" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_YzNXRw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXSA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Name of Person who Created the Object" label="ERNAM" length="12" name="ERNAM" sourceType="STRING" talendType="id_String" xmi:id="_YzNXSQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXSg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Date of Last Change" label="LAEDA" length="8" name="LAEDA" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_YzNXSw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXTA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Name of Person Who Changed Object" label="AENAM" length="12" name="AENAM" sourceType="STRING" talendType="id_String" xmi:id="_YzNXTQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXTg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Maintenance status of complete material" label="VPSTA" length="15" name="VPSTA" sourceType="STRING" talendType="id_String" xmi:id="_YzNXTw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXUA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Maintenance status" label="PSTAT" length="15" name="PSTAT" sourceType="STRING" talendType="id_String" xmi:id="_YzNXUQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXUg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Flag Material for Deletion at Client Level" label="LVORM" length="1" name="LVORM" sourceType="STRING" talendType="id_String" xmi:id="_YzNXUw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXVA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Material Type" label="MTART" length="4" name="MTART" sourceType="STRING" talendType="id_String" xmi:id="_YzNXVQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXVg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Industry sector" label="MBRSH" length="1" name="MBRSH" sourceType="STRING" talendType="id_String" xmi:id="_YzNXVw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXWA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Material Group" label="MATKL" length="9" name="MATKL" sourceType="STRING" talendType="id_String" xmi:id="_YzNXWQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXWg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Old material number" label="BISMT" length="18" name="BISMT" sourceType="STRING" talendType="id_String" xmi:id="_YzNXWw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXXA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Base Unit of Measure" label="MEINS" length="3" name="MEINS" sourceType="STRING" talendType="id_String" xmi:id="_YzNXXQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXXg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Purchase Order Unit of Measure" label="BSTME" length="3" name="BSTME" sourceType="STRING" talendType="id_String" xmi:id="_YzNXXw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXYA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Document number (without document management system)" label="ZEINR" length="22" name="ZEINR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXYQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXYg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Document type (without Document Management system)" label="ZEIAR" length="3" name="ZEIAR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXYw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXZA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Document version (without Document Management system)" label="ZEIVR" length="2" name="ZEIVR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXZQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXZg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Page format of document (without Document Management system)" label="ZEIFO" length="4" name="ZEIFO" sourceType="STRING" talendType="id_String" xmi:id="_YzNXZw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXaA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Document change number (without document management system)" label="AESZN" length="6" name="AESZN" sourceType="STRING" talendType="id_String" xmi:id="_YzNXaQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXag3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Page number of document (without Document Management system)" label="BLATT" length="3" name="BLATT" sourceType="STRING" talendType="id_String" xmi:id="_YzNXaw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXbA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Number of sheets (without Document Management system)" label="BLANZ" length="3" name="BLANZ" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNXbQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXbg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Production/inspection memo" label="FERTH" length="18" name="FERTH" sourceType="STRING" talendType="id_String" xmi:id="_YzNXbw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXcA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Page Format of Production Memo" label="FORMT" length="4" name="FORMT" sourceType="STRING" talendType="id_String" xmi:id="_YzNXcQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXcg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Size/dimensions" label="GROES" length="32" name="GROES" sourceType="STRING" talendType="id_String" xmi:id="_YzNXcw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXdA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Basic Material" label="WRKST" length="48" name="WRKST" sourceType="STRING" talendType="id_String" xmi:id="_YzNXdQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXdg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Industry Standard Description (such as ANSI or ISO)" label="NORMT" length="18" name="NORMT" sourceType="STRING" talendType="id_String" xmi:id="_YzNXdw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXeA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Laboratory/design office" label="LABOR" length="3" name="LABOR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXeQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXeg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Purchasing Value Key" label="EKWSL" length="4" name="EKWSL" sourceType="STRING" talendType="id_String" xmi:id="_YzNXew3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXfA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Gross Weight" label="BRGEW" length="13" name="BRGEW" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXfQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXfg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Net Weight" label="NTGEW" length="13" name="NTGEW" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXfw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXgA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Weight Unit" label="GEWEI" length="3" name="GEWEI" sourceType="STRING" talendType="id_String" xmi:id="_YzNXgQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXgg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Volume" label="VOLUM" length="13" name="VOLUM" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXgw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXhA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Volume unit" label="VOLEH" length="3" name="VOLEH" sourceType="STRING" talendType="id_String" xmi:id="_YzNXhQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXhg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Container requirements" label="BEHVO" length="2" name="BEHVO" sourceType="STRING" talendType="id_String" xmi:id="_YzNXhw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXiA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Storage conditions" label="RAUBE" length="2" name="RAUBE" sourceType="STRING" talendType="id_String" xmi:id="_YzNXiQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXig3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Temperature conditions indicator" label="TEMPB" length="2" name="TEMPB" sourceType="STRING" talendType="id_String" xmi:id="_YzNXiw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXjA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Low-Level Code" label="DISST" length="3" name="DISST" sourceType="STRING" talendType="id_String" xmi:id="_YzNXjQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXjg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Transportation Group" label="TRAGR" length="4" name="TRAGR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXjw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXkA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Hazardous material number" label="STOFF" length="18" name="STOFF" sourceType="STRING" talendType="id_String" xmi:id="_YzNXkQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXkg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Division" label="SPART" length="2" name="SPART" sourceType="STRING" talendType="id_String" xmi:id="_YzNXkw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXlA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Competitor" label="KUNNR" length="10" name="KUNNR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXlQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXlg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="European Article Number (EAN) - obsolete!!!!!" label="EANNR" length="13" name="EANNR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXlw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXmA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Quantity: Number of GR/GI slips to be printed" label="WESCH" length="13" name="WESCH" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXmQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXmg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Procurement rule" label="BWVOR" length="1" name="BWVOR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXmw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXnA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Source of Supply" label="BWSCL" length="1" name="BWSCL" sourceType="STRING" talendType="id_String" xmi:id="_YzNXnQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXng3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Season Category" label="SAISO" length="4" name="SAISO" sourceType="STRING" talendType="id_String" xmi:id="_YzNXnw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXoA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Label type" label="ETIAR" length="2" name="ETIAR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXoQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXog3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Label form" label="ETIFO" length="2" name="ETIFO" sourceType="STRING" talendType="id_String" xmi:id="_YzNXow3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXpA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Disposal type" label="ENTAR" length="1" name="ENTAR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXpQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXpg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="International Article Number (EAN/UPC)" label="EAN11" length="18" name="EAN11" sourceType="STRING" talendType="id_String" xmi:id="_YzNXpw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXqA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Category of International Article Number (EAN)" label="NUMTP" length="2" name="NUMTP" sourceType="STRING" talendType="id_String" xmi:id="_YzNXqQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXqg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Length" label="LAENG" length="13" name="LAENG" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXqw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXrA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Width" label="BREIT" length="13" name="BREIT" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXrQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXrg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Height" label="HOEHE" length="13" name="HOEHE" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXrw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXsA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Unit of Dimension for Length/Width/Height" label="MEABM" length="3" name="MEABM" sourceType="STRING" talendType="id_String" xmi:id="_YzNXsQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXsg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Product hierarchy" label="PRDHA" length="18" name="PRDHA" sourceType="STRING" talendType="id_String" xmi:id="_YzNXsw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXtA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Stock Transfer Net Change Costing" label="AEKLK" length="1" name="AEKLK" sourceType="STRING" talendType="id_String" xmi:id="_YzNXtQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXtg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="CAD Indicator" label="CADKZ" length="1" name="CADKZ" sourceType="STRING" talendType="id_String" xmi:id="_YzNXtw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXuA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="QM in Procurement is Active" label="QMPUR" length="1" name="QMPUR" sourceType="STRING" talendType="id_String" xmi:id="_YzNXuQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXug3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Allowed packaging weight" label="ERGEW" length="13" name="ERGEW" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXuw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXvA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Unit of weight (allowed packaging weight)" label="ERGEI" length="3" name="ERGEI" sourceType="STRING" talendType="id_String" xmi:id="_YzNXvQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXvg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Allowed packaging volume" label="ERVOL" length="13" name="ERVOL" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXvw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXwA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Volume unit (allowed packaging volume)" label="ERVOE" length="3" name="ERVOE" sourceType="STRING" talendType="id_String" xmi:id="_YzNXwQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXwg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Excess Weight Tolerance for Handling unit" label="GEWTO" length="3" name="GEWTO" precision="1" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXww3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXxA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Excess Volume Tolerance of the Handling Unit" label="VOLTO" length="3" name="VOLTO" precision="1" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNXxQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXxg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Variable Purchase Order Unit Active" label="VABME" length="1" name="VABME" sourceType="STRING" talendType="id_String" xmi:id="_YzNXxw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXyA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Revision Level Has Been Assigned to the Material" label="KZREV" length="1" name="KZREV" sourceType="STRING" talendType="id_String" xmi:id="_YzNXyQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXyg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Configurable Material" label="KZKFG" length="1" name="KZKFG" sourceType="STRING" talendType="id_String" xmi:id="_YzNXyw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXzA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Batch management requirement indicator" label="XCHPF" length="1" name="XCHPF" sourceType="STRING" talendType="id_String" xmi:id="_YzNXzQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNXzg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Packaging Material Type" label="VHART" length="4" name="VHART" sourceType="STRING" talendType="id_String" xmi:id="_YzNXzw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX0A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Maximum level (by volume)" label="FUELG" length="3" name="FUELG" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNX0Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX0g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Stacking factor" label="STFAK" length="-1" name="STFAK" sourceType="SHORT" talendType="id_Integer" xmi:id="_YzNX0w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX1A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Material Group: Packaging Materials" label="MAGRV" length="4" name="MAGRV" sourceType="STRING" talendType="id_String" xmi:id="_YzNX1Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX1g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Authorization Group" label="BEGRU" length="4" name="BEGRU" sourceType="STRING" talendType="id_String" xmi:id="_YzNX1w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX2A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Valid-From Date" label="DATAB" length="8" name="DATAB" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_YzNX2Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX2g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Deletion date" label="LIQDT" length="8" name="LIQDT" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_YzNX2w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX3A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Season Year" label="SAISJ" length="4" name="SAISJ" sourceType="STRING" talendType="id_String" xmi:id="_YzNX3Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX3g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Price Band Category" label="PLGTP" length="2" name="PLGTP" sourceType="STRING" talendType="id_String" xmi:id="_YzNX3w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX4A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Empties Bill of Material" label="MLGUT" length="1" name="MLGUT" sourceType="STRING" talendType="id_String" xmi:id="_YzNX4Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX4g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="External Material Group" label="EXTWG" length="18" name="EXTWG" sourceType="STRING" talendType="id_String" xmi:id="_YzNX4w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX5A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Cross-Plant Configurable Material" label="SATNR" length="18" name="SATNR" sourceType="STRING" talendType="id_String" xmi:id="_YzNX5Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX5g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Material Category" label="ATTYP" length="2" name="ATTYP" sourceType="STRING" talendType="id_String" xmi:id="_YzNX5w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX6A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Indicator: Material can be co-product" label="KZKUP" length="1" name="KZKUP" sourceType="STRING" talendType="id_String" xmi:id="_YzNX6Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX6g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Indicator: The material has a follow-up material" label="KZNFM" length="1" name="KZNFM" sourceType="STRING" talendType="id_String" xmi:id="_YzNX6w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX7A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Pricing Reference Material" label="PMATA" length="18" name="PMATA" sourceType="STRING" talendType="id_String" xmi:id="_YzNX7Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX7g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Cross-Plant Material Status" label="MSTAE" length="2" name="MSTAE" sourceType="STRING" talendType="id_String" xmi:id="_YzNX7w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX8A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Cross-distribution-chain material status" label="MSTAV" length="2" name="MSTAV" sourceType="STRING" talendType="id_String" xmi:id="_YzNX8Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX8g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Date from which the cross-plant material status is valid" label="MSTDE" length="8" name="MSTDE" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_YzNX8w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX9A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Date from which the X-distr.-chain material status is valid" label="MSTDV" length="8" name="MSTDV" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_YzNX9Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX9g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Tax classification of the material" label="TAKLV" length="1" name="TAKLV" sourceType="STRING" talendType="id_String" xmi:id="_YzNX9w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX-A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Catalog Profile" label="RBNRM" length="9" name="RBNRM" sourceType="STRING" talendType="id_String" xmi:id="_YzNX-Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX-g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Minimum Remaining Shelf Life" label="MHDRZ" length="4" name="MHDRZ" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNX-w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX_A3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Total shelf life" label="MHDHB" length="4" name="MHDHB" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNX_Q3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNX_g3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Storage percentage" label="MHDLP" length="3" name="MHDLP" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNX_w3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYAA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Content unit" label="INHME" length="3" name="INHME" sourceType="STRING" talendType="id_String" xmi:id="_YzNYAQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYAg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Net contents" label="INHAL" length="13" name="INHAL" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNYAw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYBA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Comparison price unit" label="VPREH" length="5" name="VPREH" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNYBQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYBg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="IS-R Labeling: material grouping (deactivated in 4.0)" label="ETIAG" length="18" name="ETIAG" sourceType="STRING" talendType="id_String" xmi:id="_YzNYBw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYCA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Gross contents" label="INHBR" length="13" name="INHBR" precision="3" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNYCQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYCg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Quantity Conversion Method" label="CMETH" length="1" name="CMETH" sourceType="STRING" talendType="id_String" xmi:id="_YzNYCw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYDA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Internal object number" label="CUOBF" length="18" name="CUOBF" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYDQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYDg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Environmentally Relevant" label="KZUMW" length="1" name="KZUMW" sourceType="STRING" talendType="id_String" xmi:id="_YzNYDw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYEA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Product allocation determination procedure" label="KOSCH" length="18" name="KOSCH" sourceType="STRING" talendType="id_String" xmi:id="_YzNYEQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYEg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Pricing profile for variants" label="SPROF" length="1" name="SPROF" sourceType="STRING" talendType="id_String" xmi:id="_YzNYEw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYFA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Material qualifies for discount in kind" label="NRFHG" length="1" name="NRFHG" sourceType="STRING" talendType="id_String" xmi:id="_YzNYFQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYFg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Manufacturer Part Number" label="MFRPN" length="40" name="MFRPN" sourceType="STRING" talendType="id_String" xmi:id="_YzNYFw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYGA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Number of a Manufacturer" label="MFRNR" length="10" name="MFRNR" sourceType="STRING" talendType="id_String" xmi:id="_YzNYGQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYGg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Number of firm's own (internal) inventory-managed material" label="BMATN" length="18" name="BMATN" sourceType="STRING" talendType="id_String" xmi:id="_YzNYGw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYHA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Manufacturer Part Profile" label="MPROF" length="4" name="MPROF" sourceType="STRING" talendType="id_String" xmi:id="_YzNYHQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYHg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Units of measure usage" label="KZWSM" length="1" name="KZWSM" sourceType="STRING" talendType="id_String" xmi:id="_YzNYHw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYIA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Rollout in a Season" label="SAITY" length="2" name="SAITY" sourceType="STRING" talendType="id_String" xmi:id="_YzNYIQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYIg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Dangerous Goods Indicator Profile" label="PROFL" length="3" name="PROFL" sourceType="STRING" talendType="id_String" xmi:id="_YzNYIw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYJA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Indicator: Highly Viscous" label="IHIVI" length="1" name="IHIVI" sourceType="STRING" talendType="id_String" xmi:id="_YzNYJQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYJg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Indicator: In Bulk/Liquid" label="ILOOS" length="1" name="ILOOS" sourceType="STRING" talendType="id_String" xmi:id="_YzNYJw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYKA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Level of Explicitness for Serial Number" label="SERLV" length="1" name="SERLV" sourceType="STRING" talendType="id_String" xmi:id="_YzNYKQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYKg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Packaging Material is Closed Packaging" label="KZGVH" length="1" name="KZGVH" sourceType="STRING" talendType="id_String" xmi:id="_YzNYKw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYLA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Indicator: Approved batch record required" label="XGCHP" length="1" name="XGCHP" sourceType="STRING" talendType="id_String" xmi:id="_YzNYLQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYLg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Assign effectivity parameter values/ override change numbers" label="KZEFF" length="1" name="KZEFF" sourceType="STRING" talendType="id_String" xmi:id="_YzNYLw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYMA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Material completion level" label="COMPL" length="2" name="COMPL" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYMQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYMg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Period Indicator for Shelf Life Expiration Date" label="IPRKZ" length="1" name="IPRKZ" sourceType="STRING" talendType="id_String" xmi:id="_YzNYMw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYNA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Rounding rule for calculation of SLED" label="RDMHD" length="1" name="RDMHD" sourceType="STRING" talendType="id_String" xmi:id="_YzNYNQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYNg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Indicator: Product composition printed on packaging" label="PRZUS" length="1" name="PRZUS" sourceType="STRING" talendType="id_String" xmi:id="_YzNYNw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYOA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="General item category group" label="MTPOS_MARA" length="4" name="MTPOS_MARA" sourceType="STRING" talendType="id_String" xmi:id="_YzNYOQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYOg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Generic Material with Logistical Variants" label="BFLME" length="1" name="BFLME" sourceType="STRING" talendType="id_String" xmi:id="_YzNYOw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYPA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="NATO Stock Number" label="NSNID" length="9" name="NSNID" sourceType="STRING" talendType="id_String" xmi:id="_YzNYPQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYPg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Internal Charactieristic Number for Color Characteristics" label="COLOR_ATINN" length="10" name="COLOR_ATINN" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYPw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYQA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Internal Char. Number for Characteristics for Main Sizes" label="SIZE1_ATINN" length="10" name="SIZE1_ATINN" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYQQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYQg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Internal Char. Number for Characteristics for Second Sizes" label="SIZE2_ATINN" length="10" name="SIZE2_ATINN" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYQw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYRA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Characteristic Value for Colors of Variants" label="COLOR" length="18" name="COLOR" sourceType="STRING" talendType="id_String" xmi:id="_YzNYRQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYRg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Characteristic Value for Main Sizes of Variants" label="SIZE1" length="18" name="SIZE1" sourceType="STRING" talendType="id_String" xmi:id="_YzNYRw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYSA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Characteristic Value for Second Size for Variants" label="SIZE2" length="18" name="SIZE2" sourceType="STRING" talendType="id_String" xmi:id="_YzNYSQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYSg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Characteristic Value for Evaluation Purposes" label="FREE_CHAR" length="18" name="FREE_CHAR" sourceType="STRING" talendType="id_String" xmi:id="_YzNYSw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYTA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Care Codes (such as Washing Code, Ironing Code, etc.)" label="CARE_CODE" length="16" name="CARE_CODE" sourceType="STRING" talendType="id_String" xmi:id="_YzNYTQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYTg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Brand" label="BRAND_ID" length="4" name="BRAND_ID" sourceType="STRING" talendType="id_String" xmi:id="_YzNYTw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYUA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Fiber Code for Textiles (Component 1)" label="FIBER_CODE1" length="3" name="FIBER_CODE1" sourceType="STRING" talendType="id_String" xmi:id="_YzNYUQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYUg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Percentage Share of Fiber (Component 1)" label="FIBER_PART1" length="3" name="FIBER_PART1" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYUw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYVA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Fiber Code for Textiles (Component 2)" label="FIBER_CODE2" length="3" name="FIBER_CODE2" sourceType="STRING" talendType="id_String" xmi:id="_YzNYVQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYVg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Percentage Share of Fiber (Component 2)" label="FIBER_PART2" length="3" name="FIBER_PART2" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYVw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYWA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Fiber Code for Textiles (Component 3)" label="FIBER_CODE3" length="3" name="FIBER_CODE3" sourceType="STRING" talendType="id_String" xmi:id="_YzNYWQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYWg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Percentage Share of Fiber (Component 3)" label="FIBER_PART3" length="3" name="FIBER_PART3" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYWw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYXA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Fiber Code for Textiles (Component 4)" label="FIBER_CODE4" length="3" name="FIBER_CODE4" sourceType="STRING" talendType="id_String" xmi:id="_YzNYXQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYXg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Percentage Share of Fiber (Component 4)" label="FIBER_PART4" length="3" name="FIBER_PART4" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_YzNYXw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYYA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Fashion Grade" label="FASHGRD" length="4" name="FASHGRD" sourceType="STRING" talendType="id_String" xmi:id="_YzNYYQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYYg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Global Product group" label="ZZGLBPRDGRP" length="10" name="ZZGLBPRDGRP" sourceType="STRING" talendType="id_String" xmi:id="_YzNYYw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYZA3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Country of origin of the material" label="ZZHERKL" length="3" name="ZZHERKL" sourceType="STRING" talendType="id_String" xmi:id="_YzNYZQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYZg3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Change Mode for a Data Record in the Delta" label="ODQ_CHANGEMODE" length="1" name="ODQ_CHANGEMODE" sourceType="STRING" talendType="id_String" xmi:id="_YzNYaQ3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYag3uEe2A7trwCIXfNQ"/>
+      </feature>
+      <feature comment="Number of Data Units (Data Records for Example)" label="ODQ_ENTITYCNTR" length="19" name="ODQ_ENTITYCNTR" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_YzNYaw3uEe2A7trwCIXfNQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_YzNYbA3uEe2A7trwCIXfNQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e3c54fd3-4c08-4039-ba02-823e2fa324ba"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DDr0NhuQ2LHT6DQvTKFBcUvclOc9j01GMbXZ6PS+0yb/ByBbf0EjzTvlRIVHo+yqiXqhFpAqRWMZ
+U4I6kfXC8Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_773bfe2a-c077-45b7-906a-583bdce5b45f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>B0sdHtdbjiF391zx+1gIcttVzrDHzFtJfdlpLs7rEzLpOyJl9xmZr3hh5fWYKjv9uOD5dq06uBgH
+PP55waI72g==</DigestValue></Reference></SignedInfo><SignatureValue>gp0V/J+X5d4fEcsaGKIyJmneCgdRP+G7Rm07xl9cgK8OWVKCOMBonYIn65tSesPvYrJ1+Lka8p/6
+3yFjgC48ZawUPJsRatjaM1ZVTC66OD8a5kzG9FdmkUUjEqpFrHwUIuX0h639iNNC19rbiH1wjbf5
+v1xSSY5VRv3IIL/t43PSMzupQhy/vJu9rfGAQsekXAO5i1Gdo4y6N8GWVNLn69ephLO1dr6wuANy
+fd4HReOBmxU/FQ7WO0nvWw4afG9n1nK+/CZyWHvEiNz/w33Ld2unHKQxj8nkApZxsoAIXRNs+uwZ
+Ftq70MaeVWGGMd9V7c45j2aivnWzLMUesb44HA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_773bfe2a-c077-45b7-906a-583bdce5b45f" Target="#_e3c54fd3-4c08-4039-ba02-823e2fa324ba"><Timestamp>2023-07-01 10:49:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

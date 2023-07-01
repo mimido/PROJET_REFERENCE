@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_HjusQUcBEe2F9rdUWbUYxQ" label="connectionLabel" mappingTypeId="snowflake_id" mappingTypeUsed="true" xmi:id="_HjusQEcBEe2F9rdUWbUYxQ"/>
+  <TalendMetadata:GenericPackage dataManager="_HjusQEcBEe2F9rdUWbUYxQ" xmi:id="_HjusQUcBEe2F9rdUWbUYxQ">
+    <ownedElement id="_KQf0gEcBEe2F9rdUWbUYxQ" label="DV_COSTCENTER" xmi:id="_HjvTUEcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature id="3561770" key="true" label="ID" length="36" name="ID" sourceType="STRING" talendType="id_String" xmi:id="_HjvTUUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTUkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Controlling Area" id="3561771" label="KOKRS" length="4" name="Controlling_Area" sourceType="STRING" talendType="id_String" xmi:id="_HjvTU0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTVEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Cost Center" id="3561772" label="KOSTL" length="10" name="Cost_Center" sourceType="STRING" talendType="id_String" xmi:id="_HjvTVUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTVkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Valid To Date" id="3561773" label="DATETO" length="8" name="CC_ValidTo" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_HjvTV0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTWEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Valid-From Date" id="3561774" label="DATEFROM" length="8" name="CC_ValidFrom" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_HjvTWUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTWkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Person Responsible" id="3561775" label="VERAK" length="20" name="CC_Person_Responsible" sourceType="STRING" talendType="id_String" xmi:id="_HjvTW0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTXEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Company Code" id="3561776" label="BUKRS" length="4" name="CC_Company_Code" sourceType="STRING" talendType="id_String" xmi:id="_HjvTXUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTXkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Business Area" id="3561777" label="GSBER" length="4" name="CC_Business_Area_Key" sourceType="STRING" talendType="id_String" xmi:id="_HjvTX0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTYEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Cost Center Category" id="3561778" label="KOSAR" length="1" name="CC_Category" sourceType="STRING" talendType="id_String" xmi:id="_HjvTYUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTYkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Currency Key" id="3561779" label="WAERS" length="5" name="CC_Company_Currency" sourceType="STRING" talendType="id_String" xmi:id="_HjvTY0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTZEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Profit Center" id="3561780" label="PRCTR" length="10" name="CC_Profit_Center" sourceType="STRING" talendType="id_String" xmi:id="_HjvTZUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTZkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Actual Primary Postings" id="3561781" label="BKZKP" length="-1" name="CC_blocked" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTZ0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTaEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Plan Primary Costs" id="3561782" label="PKZKP" length="-1" name="IS_Plan_Primary_Costs" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTaUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTakcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="User Responsible" id="3561783" label="VERAK_USER" length="12" name="CC_User_Responsible" sourceType="STRING" talendType="id_String" xmi:id="_HjvTa0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTbEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Costing Sheet" id="3561784" label="KALSM" length="6" name="Costing_Sheet" sourceType="STRING" talendType="id_String" xmi:id="_HjvTbUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTbkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Tax Jurisdiction" id="3561785" label="TXJCD" length="15" name="Tax_Jurisdiction" sourceType="STRING" talendType="id_String" xmi:id="_HjvTb0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTcEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Plant" id="3561786" label="WERKS" length="4" name="Plant" sourceType="STRING" talendType="id_String" xmi:id="_HjvTcUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTckcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Logical System" id="3561787" label="LOGSYSTEM" length="10" name="Logical_System" sourceType="STRING" talendType="id_String" xmi:id="_HjvTc0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTdEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Created on" id="3561788" label="ERSDA" length="8" name="Creation_Date" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_HjvTdUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTdkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Entered by" id="3561789" label="USNAM" length="12" name="Entered_by" sourceType="STRING" talendType="id_String" xmi:id="_HjvTd0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTeEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Actual Secondary Costs" id="3561790" label="BKZKS" length="-1" name="IS_Actual_Secondary_Costs" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTeUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTekcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Actual Revenue Postings" id="3561791" label="BKZER" length="-1" name="IS_Actual_Revenue_Postings" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTe0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTfEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Commitment Update" id="3561792" label="BKZOB" length="1" name="Is_Commitment_Update" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTfUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTfkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Plan Secondary Costs" id="3561793" label="PKZKS" length="1" name="IS_Plan_Secondary_Costs" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTf0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTgEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Lock Indicator for Planning Revenues" id="3561794" label="PKZER" length="1" name="Is_Planning_Revenues" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTgUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTgkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Indicator for Allowed Allocation Methods" id="3561795" label="VMETH" length="2" name="Is_Allocation_Methods_Allowed" sourceType="STRING" talendType="id_String" xmi:id="_HjvTg0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvThEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Indicator for Recording Consumption Quantities" id="3561796" label="MGEFL" length="1" name="Is_Recording_Consumption_Quantities" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvThUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvThkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Department" id="3561797" label="ABTEI" length="12" name="CC_Department" sourceType="STRING" talendType="id_String" xmi:id="_HjvTh0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTiEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Subsequent cost center" id="3561798" label="NKOST" length="10" name="Subsequent_cost_center" sourceType="STRING" talendType="id_String" xmi:id="_HjvTiUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTikcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Usage of the condition table" id="3561799" label="KVEWE" length="1" name="Is_condition_table_usage" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTi0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTjEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Application" id="3561800" label="KAPPL" length="2" name="Application" sourceType="STRING" talendType="id_String" xmi:id="_HjvTjUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTjkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="CO-CCA Overhead Key" id="3561801" label="KOSZSCHL" length="6" name="CO_CCA_Overhead" sourceType="STRING" talendType="id_String" xmi:id="_HjvTj0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTkEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Country Key" id="3561802" label="LAND1" length="3" name="Cost_Center_Country" sourceType="STRING" talendType="id_String" xmi:id="_HjvTkUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTkkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Title" id="3561803" label="ANRED" length="15" name="Title" sourceType="STRING" talendType="id_String" xmi:id="_HjvTk0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTlEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Name 1" id="3561804" label="NAME1" length="35" name="NAME1" sourceType="STRING" talendType="id_String" xmi:id="_HjvTlUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTlkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Name 2" id="3561805" label="NAME2" length="35" name="NAME2" sourceType="STRING" talendType="id_String" xmi:id="_HjvTl0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTmEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Name 3" id="3561806" label="NAME3" length="35" name="NAME3" sourceType="STRING" talendType="id_String" xmi:id="_HjvTmUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTmkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Name 4" id="3561807" label="NAME4" length="35" name="NAME4" sourceType="STRING" talendType="id_String" xmi:id="_HjvTm0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTnEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="City" id="3561808" label="ORT01" length="35" name="City" sourceType="STRING" talendType="id_String" xmi:id="_HjvTnUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTnkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="District" id="3561809" label="ORT02" length="35" name="District" sourceType="STRING" talendType="id_String" xmi:id="_HjvTn0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvToEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="House number and street" id="3561810" label="STRAS" length="35" name="Adress" sourceType="STRING" talendType="id_String" xmi:id="_HjvToUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTokcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="PO Box" id="3561811" label="PFACH" length="10" name="PO_Box" sourceType="STRING" talendType="id_String" xmi:id="_HjvTo0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTpEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Postal Code" id="3561812" label="PSTLZ" length="10" name="Postal_Code" sourceType="STRING" talendType="id_String" xmi:id="_HjvTpUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTpkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="P.O. Box Postal Code" id="3561813" label="PSTL2" length="10" name="PO_Box_Postal_Code" sourceType="STRING" talendType="id_String" xmi:id="_HjvTp0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTqEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Region (State, Province, County)" id="3561814" label="REGIO" length="3" name="REGION" sourceType="STRING" talendType="id_String" xmi:id="_HjvTqUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTqkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Language Key" id="3561815" label="SPRAS" length="1" name="Language" sourceType="STRING" talendType="id_String" xmi:id="_HjvTq0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTrEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Telebox number" id="3561816" label="TELBX" length="15" name="Telebox" sourceType="STRING" talendType="id_String" xmi:id="_HjvTrUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTrkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="First telephone number" id="3561817" label="TELF1" length="16" name="Telephone_1" sourceType="STRING" talendType="id_String" xmi:id="_HjvTr0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTsEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Second telephone number" id="3561818" label="TELF2" length="16" name="Telephone_2" sourceType="STRING" talendType="id_String" xmi:id="_HjvTsUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTskcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Fax Number" id="3561819" label="TELFX" length="31" name="Fax" sourceType="STRING" talendType="id_String" xmi:id="_HjvTs0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTtEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Teletex number" id="3561820" label="TELTX" length="30" name="Teletex" sourceType="STRING" talendType="id_String" xmi:id="_HjvTtUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTtkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Telex number" id="3561821" label="TELX1" length="30" name="Telex" sourceType="STRING" talendType="id_String" xmi:id="_HjvTt0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTuEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Data communication line no." id="3561822" label="DATLT" length="14" name="Data_communication_line_number" sourceType="STRING" talendType="id_String" xmi:id="_HjvTuUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTukcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Printer destination for CCtr report" id="3561823" label="DRNAM" length="4" name="Printer_destination" sourceType="STRING" talendType="id_String" xmi:id="_HjvTu0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTvEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Standard Hierarchy Area" id="3561824" label="KHINR" length="12" name="CC_Hierarchy_Area" sourceType="STRING" talendType="id_String" xmi:id="_HjvTvUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTvkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Cost collector key" id="3561825" label="CCKEY" length="23" name="Cost_collector" sourceType="STRING" talendType="id_String" xmi:id="_HjvTv0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTwEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Completion flag for the cost center master record" id="3561826" label="KOMPL" length="1" name="Is_master_record_Completion" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTwUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTwkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Indicator. object is statistical" id="3561827" label="STAKZ" length="1" name="is_statistical_object" sourceType="BOOLEAN" talendType="id_Boolean" xmi:id="_HjvTw0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTxEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Object number" id="3561828" label="OBJNR" length="22" name="Object_number" sourceType="STRING" talendType="id_String" xmi:id="_HjvTxUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTxkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Function of cost center" id="3561829" label="FUNKT" length="3" name="cost_center_Function" sourceType="STRING" talendType="id_String" xmi:id="_HjvTx0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTyEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Alternative function of cost center" id="3561830" label="AFUNK" length="3" name="cost_center_Alternative_Function" sourceType="STRING" talendType="id_String" xmi:id="_HjvTyUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTykcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Template for Activity-Independent Formula Planning" id="3561831" label="CPI_TEMPL" length="10" name="Activity_Independent_Formula_Planning_Template" sourceType="STRING" talendType="id_String" xmi:id="_HjvTy0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTzEcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Template for Activity-Dependent Formula Planning" id="3561832" label="CPD_TEMPL" length="10" name="Activity_Dependent_Formula_Planning_Template" sourceType="STRING" talendType="id_String" xmi:id="_HjvTzUcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvTzkcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Functional Area" id="3561833" label="FUNC_AREA" length="16" name="CC_Functional_Area" sourceType="STRING" talendType="id_String" xmi:id="_HjvTz0cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT0EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Template: Activity-Independent Allocation to Cost Center" id="3561834" label="SCI_TEMPL" length="10" name="Activity_Independent_Allocation_Template" sourceType="STRING" talendType="id_String" xmi:id="_HjvT0UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT0kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Template: Activity-Dependent Allocation to Cost Center" id="3561835" label="SCD_TEMPL" length="10" name="Activity_dependent_Allocation_Template" sourceType="STRING" talendType="id_String" xmi:id="_HjvT00cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT1EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Joint Venture" id="3561836" label="VNAME" length="6" name="Joint_Venture" sourceType="STRING" talendType="id_String" xmi:id="_HjvT1UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT1kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Recovery Indicator" id="3561837" label="RECID" length="2" name="Recovery_Indicator" sourceType="STRING" talendType="id_String" xmi:id="_HjvT10cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT2EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Equity Type" id="3561838" label="ETYPE" length="3" name="Equity_Type" sourceType="STRING" talendType="id_String" xmi:id="_HjvT2UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT2kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Joint Venture Object Type" id="3561839" label="JV_OTYPE" length="4" name="Joint_Venture_Object_Type" sourceType="STRING" talendType="id_String" xmi:id="_HjvT20cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT3EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="JIB/JIBE Class" id="3561840" label="JV_JIBCL" length="3" name="JIBE_Class" sourceType="STRING" talendType="id_String" xmi:id="_HjvT3UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT3kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="JIB/JIBE Subclass A" id="3561841" label="JV_JIBSA" length="5" name="JIBE_Subclass_A" sourceType="STRING" talendType="id_String" xmi:id="_HjvT30cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT4EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Language Key" id="3561842" label="LANGU" length="1" name="Cost_Center_Language" sourceType="STRING" talendType="id_String" xmi:id="_HjvT4UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT4kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Short description" id="3561843" label="TXTSH" length="20" name="Cost_Center_SH" sourceType="STRING" talendType="id_String" xmi:id="_HjvT40cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT5EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Medium description" id="3561844" label="TXTMD" length="40" name="Cost_Center_MD" sourceType="STRING" talendType="id_String" xmi:id="_HjvT5UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT5kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature comment="Search term for matchcode use" id="3561845" label="TXTMC" length="20" name="Cost_Center_MC" sourceType="STRING" talendType="id_String" xmi:id="_HjvT50cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT6EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature id="3561846" label="KOSTLTXTSH" length="31" name="Cost_Center_NUMBER_SH" sourceType="STRING" talendType="id_String" xmi:id="_HjvT6UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT6kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature id="3561847" label="KOSTLTXTMD" length="51" name="Cost_Center_NUMBER_MD" sourceType="STRING" talendType="id_String" xmi:id="_HjvT60cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT7EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature id="3561848" label="KOSTLTXTMC" length="31" name="Cost_Center_NUMBER_MC" sourceType="STRING" talendType="id_String" xmi:id="_HjvT7UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT7kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature id="3561849" label="EXTRACT_DATE" length="-1" name="EXTRACT_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_HjvT70cBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT8EcBEe2F9rdUWbUYxQ"/>
+      </feature>
+      <feature id="3395148" label="INSERT_DATE" length="-1" name="INSERT_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP_LTZ" talendType="id_Date" xmi:id="_HjvT8UcBEe2F9rdUWbUYxQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_HjvT8kcBEe2F9rdUWbUYxQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_73ab9e87-bd18-4522-8530-a3a62e84d354"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AQSf0mR2F8hI+w0iIOcKGHKiQBzC/tRX8HKoFYkdTL9PzwYkV8Y57D3yQLbAbqlcxnvYovleyqYj
+i+d9xuGM7Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5ef1c5b7-6fe9-4ba1-be53-6fdb0d3c0d75"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cED0hRf99waw5Oa798JR4XlNLYyg7g1Tb2BXGVH3eGZVtGQvu8rE+0T/zjE466iKUb8ckONTWgiK
+9CXLRhCh4A==</DigestValue></Reference></SignedInfo><SignatureValue>MpQ8GUmaejcj7dAjneXbn0iLyi9cBozR/Iwv1ve681wCzrN58rzgNSWtbs704WbPe0tYUCt3PtLr
+U4+D/awdGGGEgjiPgv9JaaZUwt7nwNRPug287hhBIDtKbzhrfn9X2IaQY/RykcmHhF4zAtKM+zzo
+mwidfmuXem1j4V2wTG0NkxS8vBxRb1JkoMfKAeQ/2LoiSNqca7bCw6mF61cOvE57Oam9NHTOFdo0
+TU/kUzaC0CEUXgIp1I50JHctv8gUozuJ4bJ/XIUZJUq7gJZg9pTlJJvC5ACOPrD87mdGKTmAKcyL
+gXprbBnQt7RhEZa9R8V/n8nW0pq25TQmEYTH2g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5ef1c5b7-6fe9-4ba1-be53-6fdb0d3c0d75" Target="#_73ab9e87-bd18-4522-8530-a3a62e84d354"><Timestamp>2023-07-01 10:49:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

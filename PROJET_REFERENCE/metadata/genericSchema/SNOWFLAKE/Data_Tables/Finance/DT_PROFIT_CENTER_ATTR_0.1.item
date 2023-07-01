@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_PJrzEQQ8Ee2IYLKsOBc6kQ" label="DT_PROFIT_CENTER" mappingTypeId="snowflake_id" mappingTypeUsed="true" name="DT_PROFIT_CENTER" xmi:id="_3FztMAfGEe2t45dlxlynVQ"/>
+  <TalendMetadata:GenericPackage dataManager="_3FztMAfGEe2t45dlxlynVQ" xmi:id="_PJrzEQQ8Ee2IYLKsOBc6kQ">
+    <ownedElement id="_PJEvEAQ8Ee2IYLKsOBc6kQ" label="DT_PROFIT_CENTER_ATTR" xmi:id="_PJrzEgQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature key="true" label="ID" length="36" name="ID" nullable="false" sourceType="STRING" talendType="id_String" xmi:id="_EwWRoARFEe2D8_mJHuW6bg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Controlling Area" key="true" label="KOKRS" length="4" name="KOKRS" nullable="false" sourceType="STRING" talendType="id_String" xmi:id="_PJrzEwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzFAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Profit Center" key="true" label="PRCTR" length="10" name="PRCTR" nullable="false" sourceType="STRING" talendType="id_String" xmi:id="_PJrzFQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzFgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Valid To Date" key="true" label="DATETO" length="8" name="DATETO" nullable="false" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_PJrzFwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzGAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Valid-From Date" label="DATEFROM" length="8" name="DATEFROM" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_PJrzGQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzGgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Person Responsible for Profit Center" label="VERAK" length="20" name="VERAK" sourceType="STRING" talendType="id_String" xmi:id="_PJrzGwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzHAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Currency Key" label="WAERS" length="5" name="WAERS" sourceType="STRING" talendType="id_String" xmi:id="_PJrzHQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzHgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="User Responsible for the Profit Center" label="VERAK_USER" length="12" name="VERAK_USER" sourceType="STRING" talendType="id_String" xmi:id="_PJrzHwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzIAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Created on" label="ERSDA" length="8" name="ERSDA" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_PJrzIQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzIgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Entered by" label="USNAM" length="12" name="USNAM" sourceType="STRING" talendType="id_String" xmi:id="_PJrzIwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzJAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Department" label="ABTEI" length="12" name="ABTEI" sourceType="STRING" talendType="id_String" xmi:id="_PJrzJQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzJgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Profit center area" label="KHINR" length="12" name="KHINR" sourceType="STRING" talendType="id_String" xmi:id="_PJrzJwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzKAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Lock indicator" label="LOCK_IND" length="1" name="LOCK_IND" sourceType="STRING" talendType="id_String" xmi:id="_PJrzKQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzKgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Template for Formula Planning in Profit Centers" label="PCA_TEMPLATE" length="10" name="PCA_TEMPLATE" sourceType="STRING" talendType="id_String" xmi:id="_PJrzKwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzLAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Country Key" label="LAND1" length="3" name="LAND1" sourceType="STRING" talendType="id_String" xmi:id="_PJrzLQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzLgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Region (State, Province, County)" label="REGIO" length="3" name="REGIO" sourceType="STRING" talendType="id_String" xmi:id="_PJrzLwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzMAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Title" label="ANRED" length="15" name="ANRED" sourceType="STRING" talendType="id_String" xmi:id="_PJrzMQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzMgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Name 1" label="NAME1" length="35" name="NAME1" sourceType="STRING" talendType="id_String" xmi:id="_PJrzMwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzNAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Name 2" label="NAME2" length="35" name="NAME2" sourceType="STRING" talendType="id_String" xmi:id="_PJrzNQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzNgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Name 3" label="NAME3" length="35" name="NAME3" sourceType="STRING" talendType="id_String" xmi:id="_PJrzNwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzOAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Name 4" label="NAME4" length="35" name="NAME4" sourceType="STRING" talendType="id_String" xmi:id="_PJrzOQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzOgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="City" label="ORT01" length="35" name="ORT01" sourceType="STRING" talendType="id_String" xmi:id="_PJrzOwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzPAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="District" label="ORT02" length="35" name="ORT02" sourceType="STRING" talendType="id_String" xmi:id="_PJrzPQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzPgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="House number and street" label="STRAS" length="35" name="STRAS" sourceType="STRING" talendType="id_String" xmi:id="_PJrzPwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzQAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="PO Box" label="PFACH" length="10" name="PFACH" sourceType="STRING" talendType="id_String" xmi:id="_PJrzQQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzQgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Postal Code" label="PSTLZ" length="10" name="PSTLZ" sourceType="STRING" talendType="id_String" xmi:id="_PJrzQwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzRAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="P.O. Box Postal Code" label="PSTL2" length="10" name="PSTL2" sourceType="STRING" talendType="id_String" xmi:id="_PJrzRQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzRgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Telebox number" label="TELBX" length="15" name="TELBX" sourceType="STRING" talendType="id_String" xmi:id="_PJrzRwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzSAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="First telephone number" label="TELF1" length="16" name="TELF1" sourceType="STRING" talendType="id_String" xmi:id="_PJrzSQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzSgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Second telephone number" label="TELF2" length="16" name="TELF2" sourceType="STRING" talendType="id_String" xmi:id="_PJrzSwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzTAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Fax Number" label="TELFX" length="31" name="TELFX" sourceType="STRING" talendType="id_String" xmi:id="_PJrzTQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzTgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Teletex number" label="TELTX" length="30" name="TELTX" sourceType="STRING" talendType="id_String" xmi:id="_PJrzTwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzUAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Telex number" label="TELX1" length="30" name="TELX1" sourceType="STRING" talendType="id_String" xmi:id="_PJrzUQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzUgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Data communication line no." label="DATLT" length="14" name="DATLT" sourceType="STRING" talendType="id_String" xmi:id="_PJrzUwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzVAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Printer name for profit center" label="DRNAM" length="4" name="DRNAM" sourceType="STRING" talendType="id_String" xmi:id="_PJrzVQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzVgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Tax Jurisdiction" label="TXJCD" length="15" name="TXJCD" sourceType="STRING" talendType="id_String" xmi:id="_PJrzVwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzWAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Segment for Segmental Reporting" label="SEGMENT" length="10" name="SEGMENT" sourceType="STRING" talendType="id_String" xmi:id="_PJrzWQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzWgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Change Mode for a Data Record in the Delta" label="ODQ_CHANGEMODE" length="1" name="ODQ_CHANGEMODE" sourceType="STRING" talendType="id_String" xmi:id="_PJrzWwQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzXAQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature comment="Number of Data Units (Data Records for Example)" label="ODQ_ENTITYCNTR" length="19" name="ODQ_ENTITYCNTR" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_PJrzXQQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_PJrzXgQ8Ee2IYLKsOBc6kQ"/>
+      </feature>
+      <feature label="EXTRACT_DATE" length="-1" name="EXTRACT_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_q_WSYAQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INSERT_DATE" length="-1" name="INSERT_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="TIMESTAMP_LTZ" talendType="id_Date" xmi:id="_rQDn4AQ8Ee2IYLKsOBc6kQ" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_af0db0d1-1dca-4b76-9557-ac32d6d5a280"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yTM2w0dH8ZUS7SnvulUclamc2lF6SJvjpNDIWyIyK/bXfXrRecALVGhbvDE6tSz7O0RGFCMsgKri
+F0PidqzTQQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d093a8ac-03df-4b7b-b401-95d46d26082e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iShQlQaWOqPYXJP2eriTQAFpZnShcmrMUnoAiRNgPYZRF1uZdgwJDAWVvNZ6c3wQov4f92mVqC4b
+/YMkZvDe4Q==</DigestValue></Reference></SignedInfo><SignatureValue>EYAJfQ2ZhC3mTBbv2FwQvHgWRlhNnWyiLyw/8MQhQva3eGF2D9eucmxAySaW4xyju0K/ivGMUZfC
+qEkZakvRzHILTorbU0m8kraXYY7Aob1ekao1cEn3BK8abHN09XvB7c0htUPf5ECfiBclkzfeE15g
+LcNwU+m8mPBaSCzqcf0TTc9NKEL6WTsqKZNYWWB6NAIeFKdByDir6QbaAzOyEtlBkvN+H+N2MrB5
+OhLDkUl34h9uB8OK19WyFgjy+yR4vdzMmDH9MUH9blROZJRwH+pxpn3vOc2E1W/NybkIQnxY1Tko
+051Y/wo4bSq0nq4VqQlaakZn+y2C9sAQ0PPTMw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d093a8ac-03df-4b7b-b401-95d46d26082e" Target="#_af0db0d1-1dca-4b76-9557-ac32d6d5a280"><Timestamp>2023-07-01 10:49:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

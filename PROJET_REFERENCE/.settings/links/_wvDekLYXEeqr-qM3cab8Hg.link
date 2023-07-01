@@ -1,0 +1,344 @@
+{
+  "itemId" : "_wvDekLYXEeqr-qM3cab8Hg",
+  "contextList" : [ {
+    "contextName" : "REC",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_vu_p4fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_vu_p4_HaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    }, {
+      "id" : "_vu_p5PHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_LandingZone"
+    }, {
+      "id" : "_vu_p4vHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_vu_p5fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_LandingZone"
+    } ]
+  }, {
+    "contextName" : "REC",
+    "repoId" : "_LaGDQMtgEeqjycPdV-Uvvg",
+    "parameterList" : [ {
+      "id" : "_vvPhgfHaEeq8TNVYXr3VPw",
+      "name" : "param_Manufacturing"
+    }, {
+      "id" : "_vvPhgvHaEeq8TNVYXr3VPw",
+      "name" : "param_Agricole"
+    } ]
+  }, {
+    "contextName" : "REC",
+    "repoId" : "_FErnMMdsEeq-n8K88pRocA",
+    "parameterList" : [ {
+      "id" : "_vvpxP_HaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_Container"
+    }, {
+      "id" : "_vvpxPvHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_AccessKey"
+    }, {
+      "id" : "_vvpxPfHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_StorageAccount"
+    } ]
+  }, {
+    "contextName" : "REC",
+    "repoId" : "_wCfQ8O3lEeqhZKSDB3H2pw",
+    "parameterList" : [ {
+      "id" : "_vv1XY_HaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_PortSMTP"
+    }, {
+      "id" : "_vv1XZPHaEeq8TNVYXr3VPw",
+      "name" : "Receiver"
+    }, {
+      "id" : "_vv1XYfHaEeq8TNVYXr3VPw",
+      "name" : "MailSender"
+    }, {
+      "id" : "_vv1XYvHaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_ServerSMTP"
+    }, {
+      "id" : "_vv1XZfHaEeq8TNVYXr3VPw",
+      "name" : "cc"
+    } ]
+  }, {
+    "contextName" : "REC",
+    "repoId" : "_-PrTANJHEeqxZ4oGuWmnow",
+    "parameterList" : [ {
+      "id" : "_Cv-FcDriEeuBEavhbUsu8Q",
+      "name" : "environnement"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_vu_p4fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_vu_p4_HaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    }, {
+      "id" : "_vu_p5PHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_LandingZone"
+    }, {
+      "id" : "_vu_p4vHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_vu_p5fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_LandingZone"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_LaGDQMtgEeqjycPdV-Uvvg",
+    "parameterList" : [ {
+      "id" : "_vvPhgfHaEeq8TNVYXr3VPw",
+      "name" : "param_Manufacturing"
+    }, {
+      "id" : "_vvPhgvHaEeq8TNVYXr3VPw",
+      "name" : "param_Agricole"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_FErnMMdsEeq-n8K88pRocA",
+    "parameterList" : [ {
+      "id" : "_vvpxO_HaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_Container"
+    }, {
+      "id" : "_vvpxOvHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_AccessKey"
+    }, {
+      "id" : "_vvpxOfHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_StorageAccount"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_wCfQ8O3lEeqhZKSDB3H2pw",
+    "parameterList" : [ {
+      "id" : "_vv1XY_HaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_PortSMTP"
+    }, {
+      "id" : "_vv1XZPHaEeq8TNVYXr3VPw",
+      "name" : "Receiver"
+    }, {
+      "id" : "_vv1XYfHaEeq8TNVYXr3VPw",
+      "name" : "MailSender"
+    }, {
+      "id" : "_vv1XYvHaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_ServerSMTP"
+    }, {
+      "id" : "_vv1XZfHaEeq8TNVYXr3VPw",
+      "name" : "cc"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_-PrTANJHEeqxZ4oGuWmnow",
+    "parameterList" : [ {
+      "id" : "_Cv-FcDriEeuBEavhbUsu8Q",
+      "name" : "environnement"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_vu_p4fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_vu_p4_HaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    }, {
+      "id" : "_vu_p5PHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_LandingZone"
+    }, {
+      "id" : "_vu_p4vHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_vu_p5fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_LandingZone"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_LaGDQMtgEeqjycPdV-Uvvg",
+    "parameterList" : [ {
+      "id" : "_vvPhgfHaEeq8TNVYXr3VPw",
+      "name" : "param_Manufacturing"
+    }, {
+      "id" : "_vvPhgvHaEeq8TNVYXr3VPw",
+      "name" : "param_Agricole"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_FErnMMdsEeq-n8K88pRocA",
+    "parameterList" : [ {
+      "id" : "_vvpxN_HaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_Container"
+    }, {
+      "id" : "_vvpxNvHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_AccessKey"
+    }, {
+      "id" : "_vvpxNfHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_StorageAccount"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_wCfQ8O3lEeqhZKSDB3H2pw",
+    "parameterList" : [ {
+      "id" : "_vv1XY_HaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_PortSMTP"
+    }, {
+      "id" : "_vv1XZPHaEeq8TNVYXr3VPw",
+      "name" : "Receiver"
+    }, {
+      "id" : "_vv1XYfHaEeq8TNVYXr3VPw",
+      "name" : "MailSender"
+    }, {
+      "id" : "_vv1XYvHaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_ServerSMTP"
+    }, {
+      "id" : "_vv1XZfHaEeq8TNVYXr3VPw",
+      "name" : "cc"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_-PrTANJHEeqxZ4oGuWmnow",
+    "parameterList" : [ {
+      "id" : "_Cv-FcDriEeuBEavhbUsu8Q",
+      "name" : "environnement"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_vu_p4fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_vu_p4_HaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    }, {
+      "id" : "_vu_p5PHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Account_LandingZone"
+    }, {
+      "id" : "_vu_p4vHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_vu_p5fHaEeq8TNVYXr3VPw",
+      "name" : "connection_AzureStorage_AccesKey_LandingZone"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_LaGDQMtgEeqjycPdV-Uvvg",
+    "parameterList" : [ {
+      "id" : "_vvPhgfHaEeq8TNVYXr3VPw",
+      "name" : "param_Manufacturing"
+    }, {
+      "id" : "_vvPhgvHaEeq8TNVYXr3VPw",
+      "name" : "param_Agricole"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_FErnMMdsEeq-n8K88pRocA",
+    "parameterList" : [ {
+      "id" : "_vvpxM_HaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_Container"
+    }, {
+      "id" : "_vvpxMvHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_AccessKey"
+    }, {
+      "id" : "_vvpxMfHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_StorageAccount"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wCfQ8O3lEeqhZKSDB3H2pw",
+    "parameterList" : [ {
+      "id" : "_vv1XY_HaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_PortSMTP"
+    }, {
+      "id" : "_vv1XZPHaEeq8TNVYXr3VPw",
+      "name" : "Receiver"
+    }, {
+      "id" : "_vv1XYfHaEeq8TNVYXr3VPw",
+      "name" : "MailSender"
+    }, {
+      "id" : "_vv1XYvHaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_ServerSMTP"
+    }, {
+      "id" : "_vv1XZfHaEeq8TNVYXr3VPw",
+      "name" : "cc"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-PrTANJHEeqxZ4oGuWmnow",
+    "parameterList" : [ {
+      "id" : "_Cv-FcDriEeuBEavhbUsu8Q",
+      "name" : "environnement"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_LaGDQMtgEeqjycPdV-Uvvg",
+    "parameterList" : [ {
+      "id" : "_vvPhgfHaEeq8TNVYXr3VPw",
+      "name" : "param_Manufacturing"
+    }, {
+      "id" : "_vvPhgvHaEeq8TNVYXr3VPw",
+      "name" : "param_Agricole"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_FErnMMdsEeq-n8K88pRocA",
+    "parameterList" : [ {
+      "id" : "_vvpxM_HaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_Container"
+    }, {
+      "id" : "_vvpxMvHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_AccessKey"
+    }, {
+      "id" : "_vvpxMfHaEeq8TNVYXr3VPw",
+      "name" : "connection_ADLS_StorageAccount"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_wCfQ8O3lEeqhZKSDB3H2pw",
+    "parameterList" : [ {
+      "id" : "_vv1XY_HaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_PortSMTP"
+    }, {
+      "id" : "_vv1XZPHaEeq8TNVYXr3VPw",
+      "name" : "Receiver"
+    }, {
+      "id" : "_vv1XYfHaEeq8TNVYXr3VPw",
+      "name" : "MailSender"
+    }, {
+      "id" : "_vv1XYvHaEeq8TNVYXr3VPw",
+      "name" : "connection_SMTP_ServerSMTP"
+    }, {
+      "id" : "_vv1XZfHaEeq8TNVYXr3VPw",
+      "name" : "cc"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_bn5oYMdfEeqoPsygE4EEHg",
+    "parameterList" : [ {
+      "id" : "_eHx54QGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_Account_RawData"
+    }, {
+      "id" : "_eHx54gGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_Container_RawData"
+    }, {
+      "id" : "_eHx54wGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_AccesKey_RawData"
+    }, {
+      "id" : "_eHx55AGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_Account_LandingZone"
+    }, {
+      "id" : "_eHx55QGkEeuIZqehh4sxWg",
+      "name" : "connection_AzureStorage_AccesKey_LandingZone"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_-PrTANJHEeqxZ4oGuWmnow",
+    "parameterList" : [ {
+      "id" : "_Cv-FcDriEeuBEavhbUsu8Q",
+      "name" : "environnement"
+    } ]
+  } ]
+}

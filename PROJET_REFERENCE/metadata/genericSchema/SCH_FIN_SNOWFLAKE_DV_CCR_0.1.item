@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection comment="connectionComment" dataPackage="_8pSHQWy2EeuGoqoNeQBhWQ" label="connectionLabel" mappingTypeId="snowflake_id" mappingTypeUsed="true" xmi:id="_8pSHQGy2EeuGoqoNeQBhWQ"/>
+  <TalendMetadata:GenericPackage dataManager="_8pSHQGy2EeuGoqoNeQBhWQ" xmi:id="_8pSHQWy2EeuGoqoNeQBhWQ">
+    <ownedElement id="_BkcZsGy3EeuGoqoNeQBhWQ" label="metadata" xmi:id="_8pSHQmy2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature id="226199" label="Company_Code" length="4" name="Company_Code" sourceType="STRING" talendType="id_String" xmi:id="_8pSHQ2y2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHRGy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226200" label="Plant_Code" length="4" name="Plant_Code" pattern="&quot;dd-MM-yyyy&quot;" sourceType="STRING" talendType="id_String" xmi:id="_8pSHRWy2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHRmy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226201" label="Calendar_Date" length="9" name="Calendar_Date" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_8pSHR2y2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHSGy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226202" label="Costing_Status_Code" length="2" name="Costing_Status_Code" pattern="&quot;dd-MM-yyyy&quot;" sourceType="STRING" talendType="id_String" xmi:id="_8pSHSWy2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHSmy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226203" label="Costing_Status" length="60" name="Costing_Status" pattern="&quot;dd-MM-yyyy&quot;" sourceType="STRING" talendType="id_String" xmi:id="_8pSHS2y2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHTGy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226204" label="Material_Code" length="18" name="Material_Code" pattern="&quot;dd-MM-yyyy&quot;" sourceType="STRING" talendType="id_String" xmi:id="_8pSHTWy2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHTmy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226205" label="Material" length="60" name="Material" pattern="&quot;dd-MM-yyyy&quot;" sourceType="STRING" talendType="id_String" xmi:id="_8pSHT2y2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHUGy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226206" label="Cost_Component" length="20" name="Cost_Component" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="STRING" talendType="id_String" xmi:id="_8pSHUWy2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHUmy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226208" label="Current_Plan_Price" length="38" name="Current_Plan_Price" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_8pSHU2y2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHVGy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226209" label="Lot_Size" length="38" name="Lot_Size" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_8pSHVWy2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHVmy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature id="226210" label="Variable_Amount" length="38" name="Variable_Amount" pattern="&quot;dd-MM-yyyy&quot;" precision="5" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_8pSHV2y2EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_8pSHWGy2EeuGoqoNeQBhWQ"/>
+      </feature>
+      <feature label="INSERT_DATE" length="9" name="INSERT_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP_LTZ" talendType="id_Date" xmi:id="_EGNy4Gy3EeuGoqoNeQBhWQ" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue xmi:id="_EGNy4Wy3EeuGoqoNeQBhWQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ced86fc6-9d95-4cdc-8590-8be01e2e3f7b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3l2iDT3hfJBk1u7nII33Y2Wbh6r7zJrB91AR09nNqfLa7qRrHUnDyMOjduJRJvPQZshM9sTHG9DG
+Eb1/dItkew==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e254b4fa-7ca6-495f-9f79-00501df7229f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MbH/A2X0lHPCZdyuufFrhwH4/w24um3uuIKvhOZk6YE3Lv0MNOxqzxaaUUYVIVH9H8aApMPEytwz
+EG3SNUiSpg==</DigestValue></Reference></SignedInfo><SignatureValue>Ndji4Ptf9cllA/nVT2e+UBil/Fx6M97TXVndros1spbAFw2gPTeU7efWXB+wN4t/C08lMR1vlxdz
+j2VGI+nDc76MNE/K9ei2WMNcYLjmFUOxA0cDL423qVgpAokgCTANkMJHkS6EgvCCxmISyDcgVpuN
+cB78A77mKECFvhCf4Q9R+GxV1HXWT4HyePcnx9hPKMQEY6b40a6z4nVgiG3t3alDfUwQGOQMLwe3
+t527AzR4owdqCGGUgH6wlW6a35tKaCRvJYxJZ5aDOXjpEr5+zlLfEINizg87s6zSDQ7p/qGNLOzy
+Hz9j+9TUq8ocEIfLq8H0hmhN6DV9ke2rKE/dIQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e254b4fa-7ca6-495f-9f79-00501df7229f" Target="#_ced86fc6-9d95-4cdc-8590-8be01e2e3f7b"><Timestamp>2023-07-01 10:49:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
